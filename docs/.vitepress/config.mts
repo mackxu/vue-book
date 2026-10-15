@@ -6,7 +6,7 @@ export default defineConfig({
   description: "Vue3源码解析",
   lang: "zh-CN",
   ignoreDeadLinks: true,
-  base: "vue-book",
+  base: "/vue-book/",
   // head: [["link", { rel: "icon", href: "/logo.svg" } ]],
   // head设置
   head: [
