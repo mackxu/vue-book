@@ -11,39 +11,6 @@ export default defineConfig({
   // head设置
   head: [
     ["link", { rel: "icon", href: "/logo.svg" }],
-    // 添加百度统计代码
-    [
-      "script",
-      {},
-      `
-      var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?075678ead356cdd6dec49c92b16ca5f1";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-      })();
-    `,
-    ],
-    [
-      "script",
-      {
-        async: "async",
-        src: "https://www.googletagmanager.com/gtag/js?id=G-PSFPPWCBHD",
-      },
-    ],
-    [
-      "script",
-      {},
-      `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-PSFPPWCBHD');
-    `,
-    ],
-    ["meta", { name: "baidu-site-verification", content: "codeva-phM5FSU2JM" }],
     [
       "meta",
       {
